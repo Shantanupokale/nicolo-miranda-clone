@@ -1,0 +1,354 @@
+@font-face {
+    font-family: canopee;
+    src: url(./Canopee\ Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #1C1C19;
+    overflow-x: hidden;
+}
+.page1{
+   height: 125vh;
+    width: 100vw;
+background-color: #C5BEB4;
+position: relative;
+overflow: hidden;
+}
+
+.nav{
+    height: 80px;
+    /* background-color: red; */
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222
+    ;
+}
+.nav img{
+    height: 20px;
+ 
+margin-left: -80px;
+}
+.nav h5 {
+font-weight: 100;
+
+}
+
+.elems{
+    /* background-color: red; */
+    height: 350px;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 30px 30px;
+}
+
+.elem1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.elem2{
+    width: 30%;
+    height: 100%;
+    padding: 10px 30px;
+    /* background-color: blue; */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+
+}
+.elem3{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+  
+.elem1 #imagediv{
+    height: 60%;
+    width: 100%;
+overflow: hidden;
+}
+#imagediv{
+    border: 1px solid #222;
+}
+#imagediv img{
+
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    transition: all ease 0.5s;
+}
+.elem3 #imagediv{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#imagediv:hover img{
+    scale: 1.1;
+   
+}
+
+.elem1 h4
+{font-family: canopee;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px 0px;
+    
+}
+.elem1 h4 span{
+    background-color:#D2240B;
+    font-size:20px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    color: #C5BEB4;
+}
+.elem1 p{
+    color: #373737;
+letter-spacing: -.06rem;
+font-size: 20px;
+}
+.elem2 h2{
+    margin: 8px;
+    font-size: 65px;
+    font-weight: 250;
+    font-family: canopee;
+    color: #252525;
+    letter-spacing: -0.25rem;
+
+}
+.elem2 h3{
+    font-size: 40px;
+    font-weight: 50;
+letter-spacing: -0.15rem;
+color: #302f2f;
+line-height: 40px;
+
+}
+.elem2 h4{
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #373737;
+
+}
+.elem2 span{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: canopee;
+    color: #373737;
+}
+
+.elem3 h4
+{font-family: canopee;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px 0px;
+    
+}
+.elem3 h4 span{
+    background-color:#D2240B;
+    font-size:20px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    color: #C5BEB4;
+}
+.elem3 p{
+    color: #373737;
+letter-spacing: -.06rem;
+font-size: 20px;
+}
+.miranda{
+    padding: 10px 20px;
+    background-color: #C5BEB4;
+    text-align: center;
+}
+
+.miranda h1{
+    width: 98%;
+    background-color: #1C1C19;
+    font-size: 550px;
+    font-family: canopee;
+    font-weight: 500;
+    color: #C4BCB3;
+    letter-spacing: -30px;
+    line-height: 500px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: 1%;
+}
+
+ 
+.page2{
+    height: 160vh;
+    width: 100%;
+    background-color: #C5BEB4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 35px;
+    overflow: hidden;
+
+}
+
+.page2left{
+    width: 32%;
+    height: 100%;
+    /* background-color: red; */
+    /* padding-right: 45px; */
+    border-right: 2px solid #1C1C19 ;
+}
+.page2left h2{
+    font-weight: 500;
+font-size: 110px;
+font-family: canopee;
+line-height: 130px;
+letter-spacing: -4.5px;
+}
+.page2left span{
+    font-size: 185px;
+    font-weight: 500;
+}
+
+.page2left img{
+    height: 53%;
+    width: 92%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    outline:1px solid #1C1C19;
+}
+.page2left p{
+    font-size: 32px;
+    font-weight: 0;
+letter-spacing: -0.15rem;
+color: #302f2f;
+line-height: 40px;
+background-color: #C4BCB3;
+
+}
+
+.page2right{
+    width: 65%;
+    height: 100%;
+}
+.page2right img{
+    height: 50%;
+    width: 100%;
+object-fit: cover;
+margin-bottom: 20px;
+
+}
+.page2right h1{
+    font-size: 120px;
+    font-weight: 300;
+    font-family: canopee;
+    line-height: 115px;
+    letter-spacing: -7px;
+    word-spacing: 10px;
+    color: #1b1b1b;
+    text-decoration:0.08px #4d4d4d line-through;
+    background-color: #C4BCB3;
+
+    
+}
+
+
+.page3{
+ height: 60vh;
+    width: 100%;
+position: relative;
+    background-color: #C4BCB3;
+}
+
+.page3 h1{
+    width: 73%;
+    height: 85%;
+    background-color: #1C1C19;
+    font-size: 450px;
+    font-family: canopee;
+    font-weight: 500;
+    color: #C4BCB3;
+    letter-spacing: -23px;
+    line-height: 400px;
+    margin-left: 2%;
+    padding: 0px 15px;
+ 
+ 
+ }
+ .page3 img{
+    height: 400px;
+    position:absolute;
+    top: 0;
+    right: 3%;
+ }
+
+#page5 {
+    padding: 25px 0;
+    width: 100%;
+    background-color: #C4BCB3;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#page5::-webkit-scrollbar {
+    display: none;
+}
+
+#page5 h1 {
+    font-size: 40px;
+    font-family: domain;
+    font-weight: 100;
+    display: inline-block;
+    /* background-color: red; */
+    animation-timing-function: linear;
+    margin-right: 30px;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#page5 h1 span {
+    font-family: canopee;
+    background-color: #1b1b1b;
+    color: #C4BCB3;
+    padding: 0 12px;
+}
+
+#page6 {
+    height: 150px;
+    width: 100%;
+    background-color: #C4BCB3;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 34px));
+    }
+}
+
+#page5:hover h1{
+    animation-play-state: paused;
+}
